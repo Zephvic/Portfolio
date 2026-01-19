@@ -32,8 +32,10 @@ Other Tools
 📂 Projects
 
 🐍 Python Projects
-- **Student Performance Analysis**  
-  Analyzed student score data to classify pass/fail status, generate summary statistics, and extract insights using Pandas.
+- **Student Performance Analysis (python)**  
+  An end-to-end data analysis project using Python and Pandas to analyze student exam performance, generate insights, and visualize results.  
+  👉 [View Project](projects/python/student-performance-analysis)
+
 
 - **File Automation Script**  
   A Python script that automatically organizes files into folders based on file type.
