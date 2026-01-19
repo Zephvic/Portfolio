@@ -47,8 +47,26 @@ This project generates charts saved in the project folder:
 - `score_distribution.png`
 - `pass_fail.png`
 - `avg_score_by_gender.png`
+which shows the visual respectively
+- Score distribution histogram
+- Pass vs Fail bar chart
+- Average score by gender bar chart
 
-## ✅ Key Findings (Example)
-- Calculated pass rate and average score
-- Identified top and bottom performing students
-- Visualized score distribution and pass/fail counts
+Sample outputs are included in the project folder for reference.
+
+---
+
+## 📊 Key Findings
+- The average student score was computed from the dataset.
+- The overall pass rate was calculated using a pass mark of 50.
+- High-performing and low-performing students were identified.
+- Female and male students’ average scores were compared.
+
+---
+
+## 🧠 What I Learned
+- How to load and clean CSV data using Pandas
+- How to create derived columns such as pass/fail and grades
+- How to generate summary statistics programmatically
+- How to visualize data using Matplotlib
+- How to structure a complete data analysis project for a portfolio
