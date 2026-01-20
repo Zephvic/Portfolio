@@ -52,7 +52,7 @@ Other Tools
 
 - **Biscuit Sales Dashboard (Excel)**  
   Excel dashboard using pivot tables, charts, and slicers to analyze revenue and profitability trends.  
-  👉 [View Project](projects/data_analytics/excel/biscuit-sales-analysis)
+  👉 [View Project](projects/Data_Analytics/Excel/biscuit-sales-analysis)
 
 - **Excel Sales Analysis**  
   Used Excel pivot tables and charts to analyze sales performance and identify trends.
