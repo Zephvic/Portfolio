@@ -36,6 +36,9 @@ Other Tools
   An end-to-end data analysis project using Python and Pandas to analyze student exam performance, generate insights, and visualize results.  
   👉 [View Project](projects/python/student-performance-analysis)
 
+- **Biscuit Sales & Profitability Analysis (Python)**  
+  Retail transaction analysis using Pandas to compute KPIs and generate charts across brand, location, payment method, and sales reps.  
+  👉 [View Project](projects/python/biscuit-sales-profitability-analysis)
 
 - **File Automation Script**  
   A Python script that automatically organizes files into folders based on file type.
@@ -46,6 +49,11 @@ Other Tools
 ---
 
 📊 Data Analytics Projects
+
+- **Biscuit Sales Dashboard (Excel)**  
+  Excel dashboard using pivot tables, charts, and slicers to analyze revenue and profitability trends.  
+  👉 [View Project](projects/data_analytics/excel/biscuit-sales-analysis)
+
 - **Excel Sales Analysis**  
   Used Excel pivot tables and charts to analyze sales performance and identify trends.
 
