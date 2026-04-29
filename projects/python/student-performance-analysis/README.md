@@ -1,72 +1,75 @@
-# Student Performance Analysis
+# 🎓 Student Performance Analysis
 
-## 📌 Project Overview
-This project analyzes student performance data to understand score distribution, identify pass and fail rates, and generate insights using Python.
-
-
-## 🎯 Objectives
-- Classify students based on performance
-- Calculate summary statistics
-- Identify top and low performers
-- Demonstrate data analysis using Python
+A Python-based data analysis project that evaluates student exam scores, classifies pass/fail outcomes, assigns letter grades, and visualizes performance distributions.
 
 ---
 
-## 🛠️ Tools Used
-- Python
-- Pandas
-- Jupyter Notebook
+## 📌 Objectives
+
+- Load and clean a student exam dataset
+- Classify students as Pass or Fail (pass mark: 50)
+- Assign letter grades (A–F)
+- Identify top and bottom performers
+- Visualize score distribution, pass/fail ratio, and gender comparison
 
 ---
 
-## 📂 Dataset
-The dataset contains student names and exam scores used to evaluate academic performance.
+## 🛠️ Tools & Libraries
+
+- **Python** — core language
+- **Pandas** — data loading, cleaning, transformation
+- **Matplotlib** — chart generation
 
 ---
 
-## 🔍 Analysis Steps
-- Loaded the dataset using Pandas
-- Cleaned and validated data
-- Classified results as Pass or Fail
-- Sorted and summarized performance
+## 📂 Project Structure
+
+```
+student-performance-analysis/
+├── analysis.py          # Main analysis script
+├── students.csv         # Dataset
+├── score_distribution.png
+├── pass_fail.png
+└── avg_score_by_gender.png
+```
 
 ---
 
-## 📊 Key Insights
-- Identified pass and fail distribution
-- Highlighted highest and lowest scores
-- Provided summary statistics for decision-making
+## 📊 Visual Outputs
+
+### Score Distribution
+![Score Distribution](score_distribution.png)
+
+### Pass vs Fail
+![Pass vs Fail](pass_fail.png)
+
+### Average Score by Gender
+![Avg Score by Gender](avg_score_by_gender.png)
 
 ---
 
-## ✅ Conclusion
-This project demonstrates foundational data analysis skills using Python and Pandas to extract meaningful insights from educational data.
+## 🔍 Key Findings
 
-## 📈 Outputs
-This project generates charts saved in the project folder:
-- `score_distribution.png`
-- `pass_fail.png`
-- `avg_score_by_gender.png`
-which shows the visual respectively
-- Score distribution histogram
-- Pass vs Fail bar chart
-- Average score by gender bar chart
-
-Sample outputs are included in the project folder for reference.
+- Overall pass rate and average score computed from the dataset
+- Top 5 and bottom 5 students identified by score
+- Grade distribution (A through F) summarized
+- Male vs female average scores compared
 
 ---
 
-## 📊 Key Findings
-- The average student score was computed from the dataset.
-- The overall pass rate was calculated using a pass mark of 50.
-- High-performing and low-performing students were identified.
-- Female and male students’ average scores were compared.
+## ▶️ How to Run
+
+```bash
+pip install pandas matplotlib
+python analysis.py
+```
 
 ---
 
-## 🧠 What I Learned
-- How to load and clean CSV data using Pandas
-- How to create derived columns such as pass/fail and grades
-- How to generate summary statistics programmatically
-- How to visualize data using Matplotlib
-- How to structure a complete data analysis project for a portfolio
+## 🧠 What This Demonstrates
+
+- CSV data loading and cleaning with Pandas
+- Creating derived columns (pass/fail, grade)
+- Generating summary statistics programmatically
+- Building and saving charts with Matplotlib
+- Structuring a complete, documented analysis project

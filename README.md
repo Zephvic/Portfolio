@@ -1,90 +1,112 @@
-Python & Data Analytics Portfolio
+# 📊 Zeph Victory — Data Analytics Portfolio
 
-Welcome to my Python and Data Analytics portfolio. This repository showcases hands-on projects demonstrating my skills in Python programming, data analysis, and data visualization, with a focus on solving real-world problems using data.
+> Python · Excel · Power BI · Data Visualization
 
-👤 About Me
-
-I’m **Zeph Victory Chiadikaobi**, a tech-driven professional with a background in **Genetics and Biotechnology**. I am transitioning into **Python programming and data analytics**, where I use data-driven approaches to extract insights, automate tasks, and support decision-making.
-
-I am particularly interested in applying technology and data analytics to **health, research, and business-related problems**.
-
-🛠️ Skills & Tools
-
-Python
-- Python fundamentals
-- Data structures and control flow
-- File handling and automation
-- Pandas and NumPy
-- Data analysis with Python
-
-Data Analytics
-- Microsoft Excel (Advanced)
-- Data cleaning and preprocessing
-- Data visualization
-- Power BI dashboards
-- Basic statistical analysis
-
-Other Tools
-- Git & GitHub
-- HTML & CSS (basic portfolio website)
-- Jupyter Notebook
-
-📂 Projects
-
-🐍 Python Projects
-- **Student Performance Analysis (python)**  
-  An end-to-end data analysis project using Python and Pandas to analyze student exam performance, generate insights, and visualize results.  
-  👉 [View Project](projects/python/student-performance-analysis)
-
-- **Biscuit Sales & Profitability Analysis (Python)**  
-  Retail transaction analysis using Pandas to compute KPIs and generate charts across brand, location, payment method, and sales reps.  
-  👉 [View Project](projects/python/biscuit-sales-profitability-analysis)
-
-- **File Automation Script**  
-  A Python script that automatically organizes files into folders based on file type.
-
-- **Health Dataset Analysis**  
-  Cleaned and analyzed a health-related dataset to identify trends and present insights using Python.
+Welcome! I'm **Victory Chiadikaobi Zeph**, a data analyst with a background in **Genetics and Biotechnology**, transitioning into data analytics and Python programming. I use data-driven approaches to extract insights, automate tasks, and support decision-making — with a particular interest in health, research, and business problems.
 
 ---
 
-📊 Data Analytics Projects
+## 👤 About Me
 
-- **Biscuit Sales Dashboard (Excel)**  
-  Excel dashboard using pivot tables, charts, and slicers to analyze revenue and profitability trends.  
-  👉 [View Project](projects/Data_Analytics/Excel/biscuit-sales-analysis)
+- 🎓 B.Sc. Genetics & Biotechnology
+- 💼 Recently completed a 6-month internship at **Access Bank** (Retail Operations — Teller & Customer Care)
+- 📍 Based in Nigeria
+- 🚀 Building toward a career at the intersection of **health data, bioinformatics, and AI**
 
-- **Excel Sales Analysis**  
-  Used Excel pivot tables and charts to analyze sales performance and identify trends.
+---
 
-- **Power BI Interactive Dashboard**  
-  Built an interactive Power BI dashboard to visualize KPIs and business metrics.
+## 🛠️ Skills & Tools
 
-- **Data Cleaning Case Study**  
-  Transformed raw, messy data into a clean and analysis-ready dataset, documenting each step.
+| Category | Tools |
+|---|---|
+| **Programming** | Python, Pandas, NumPy, Matplotlib |
+| **Data Analytics** | Microsoft Excel (Advanced), Power BI |
+| **Other** | Git & GitHub, Jupyter Notebook, HTML & CSS |
 
+---
 
-🎓 Certifications
-- **Information Technology Specialist – Python**  
-  Certiport (Pearson VUE), November 2025  
-  Credential ID: wNDDK-2FvW  
-  Verification: https://verify.certiport.com
-  
-- **Data Analytics (6-Month Professional Program)**  
-  ALX Africa | December 2025  
-  Skills: Data analysis, Excel, Power BI, SQL, professional development  
-  Certificate Validation: https://savanna.alxafrica.com/certificates/yhf9xc5ce8
+## 📂 Projects
 
-- **Level 3 in Data Analysis with Python**  
-  CPN/NSQ | LearnFactory Nigeria | November 2025  
-  Covered: Python for Data Science, SQL, Power BI, Excel, Data Visualization  
-  Certificate No: CPN/NSQ/24176587
+### 🐍 Python Projects
 
+#### 1. Student Performance Analysis
+> Analyze student exam scores, classify pass/fail, and visualize grade distribution.
 
-📫 Contact
-- **Email:** zephvic@gmail.com  
-- **LinkedIn:** *www.linkedin.com/in/victoryzeph*  
-- **GitHub:** *https://github.com/Zephvic/Portfolio*
+**Tools:** Python · Pandas · Matplotlib
 
-📌 Notes
-This portfolio is continuously updated as I build new projects and expand my skills in Python and data analytics.
+![Score Distribution](projects/python/student-performance-analysis/score_distribution.png)
+![Pass vs Fail](projects/python/student-performance-analysis/pass_fail.png)
+![Avg Score by Gender](projects/python/student-performance-analysis/avg_score_by_gender.png)
+
+👉 [View Project](projects/python/student-performance-analysis)
+
+---
+
+#### 2. Biscuit Sales & Profitability Analysis
+> End-to-end retail transaction analysis across 12,000 records — KPIs, revenue trends, and profitability by brand, location, and sales rep.
+
+**Tools:** Python · Pandas · Matplotlib
+
+**Key KPIs:**
+- Total Revenue: ₦61,567,883 &nbsp;|&nbsp; Total Profit: ₦26,784,833 &nbsp;|&nbsp; Margin: **43.5%**
+- Top Brand: Shortbread &nbsp;|&nbsp; Top Location: San Antonio &nbsp;|&nbsp; Top Rep: Travis Doyle
+
+![Monthly Revenue](projects/python/biscuit-sales-profitability-analysis/monthly_revenue.png)
+![Top Brands by Revenue](projects/python/biscuit-sales-profitability-analysis/top_brands_revenue.png)
+
+👉 [View Project](projects/python/biscuit-sales-profitability-analysis)
+
+---
+
+#### 3. Customer Segmentation & Sales Analysis *(In Progress)*
+> Clustering customers by behavior and demographics to drive targeted business decisions.
+
+**Tools:** Python · Pandas · Scikit-learn · Jupyter Notebook
+
+👉 [View Project](projects/python/customer-segmentation-sales-analysis)
+
+---
+
+### 📊 Data Analytics Projects
+
+#### 4. Biscuit Sales Dashboard (Excel)
+> Interactive Excel dashboard using pivot tables, charts, and slicers to analyze revenue and profitability trends.
+
+**Tools:** Microsoft Excel · Pivot Tables · Slicers
+
+![Excel Dashboard](projects/Data_Analytics/Excel/biscuit-sales-analysis/dashboard.png)
+
+👉 [View Project](projects/Data_Analytics/Excel/biscuit-sales-analysis)
+
+---
+
+#### 5. SuperStore Sales Performance Dashboard (Power BI) *(Coming Soon)*
+> Interactive Power BI dashboard with DAX measures, KPI cards, YoY comparisons, and Top N filters.
+
+**Tools:** Power BI · DAX · Calendar Tables
+
+---
+
+## 🎓 Certifications
+
+| Certification | Issuer | Date |
+|---|---|---|
+| **ALX Python Programming** | ALX Africa | April 2026 |
+| **IT Specialist – Python** | Certiport / Pearson VUE | November 2025 |
+| **Data Analytics (6-Month Program)** | ALX Africa | December 2025 |
+| **Level 3 – Data Analysis with Python** | CPN/NSQ · LearnFactory Nigeria | November 2025 |
+
+> 🔗 Verify IT Specialist: [verify.certiport.com](https://verify.certiport.com) · Credential ID: `wNDDK-2FvW`
+> 🔗 Verify ALX Data Analytics: [savanna.alxafrica.com/certificates/yhf9xc5ce8](https://savanna.alxafrica.com/certificates/yhf9xc5ce8)
+
+---
+
+## 📫 Contact
+
+- 📧 [zephvic@gmail.com](mailto:zephvic@gmail.com)
+- 💼 [linkedin.com/in/victoryzeph](https://www.linkedin.com/in/victoryzeph)
+- 🐙 [github.com/Zephvic](https://github.com/Zephvic)
+
+---
+
+*This portfolio is continuously updated as I build new projects and expand my skills.*

@@ -1,25 +1,38 @@
-##  Excel Project README (Detailed)
+# 📊 Biscuit Sales Dashboard (Excel)
 
-```md
-# Biscuit Sales Dashboard (Excel)
+An interactive Excel dashboard analyzing 2024 biscuit retail sales data using pivot tables, charts, and slicers to summarize revenue and profitability across brands, locations, payment methods, and sales representatives.
 
-## 📌 Overview
-This Excel dashboard analyzes a 2024 biscuit retail sales dataset using pivot tables, charts, and slicers to summarize revenue and profitability across brands, locations, payment methods, and sales representatives.
+---
+
+## 📌 Objectives
+
+- Clean and structure raw sales transaction data in Excel
+- Build pivot tables for aggregation and comparison
+- Design an interactive dashboard with charts and KPI tiles
+- Enable dynamic filtering via slicers
+
+---
+
+## 📷 Dashboard Preview
+
+![Dashboard Overview](dashboard.png)
 
 ---
 
 ## 🛠️ Tools Used
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers (Interactive Filters)
+
+- **Microsoft Excel** — Advanced
+- **Pivot Tables** — aggregation and cross-tabulation
+- **Pivot Charts** — bar, line, and pie visualizations
+- **Slicers** — interactive filtering by location, brand, payment method
 
 ---
 
 ## 📂 Dataset
+
 Retail sales transactions containing:
-- Date/Month, Location, Payment Method
-- Brand/Product Code, Units Sold, Unit Price, Cost
+- Date / Month, Location, Payment Method
+- Brand / Product Code, Units Sold, Unit Price, Cost
 - Revenue, Profit, Profit Category
 - Customer demographics (Gender, Age Category)
 - Sales Representative
@@ -27,34 +40,30 @@ Retail sales transactions containing:
 ---
 
 ## 📊 Dashboard Features
-- KPI summary (Total Revenue, Total Profit, Profit Margin)
-- Top Brands by Revenue/Profit
-- Revenue by Location
-- Revenue by Payment Method
-- Sales Rep Performance
-- Monthly Revenue trend
-- Slicers for interactive filtering (e.g., Location, Payment Method, Brand)
+
+- **KPI Summary** — Total Revenue, Total Profit, Profit Margin
+- **Top Brands** by Revenue and Profit
+- **Revenue by Location** — geographic breakdown
+- **Revenue by Payment Method**
+- **Sales Rep Performance** ranking
+- **Monthly Revenue Trend** — line chart
+- **Interactive Slicers** — filter by location, brand, payment method
 
 ---
 
 ## 🔍 What Was Done
-- Cleaned raw data (duplicates/empty rows handled)
-- Standardized column formats (date, currency, numeric values)
-- Built pivot tables for aggregation and comparison
-- Designed a dashboard layout using charts + KPI cells
-- Added slicers to enable quick filtering and exploration
+
+1. Cleaned raw data — removed duplicates, handled blank rows
+2. Standardized date, currency, and numeric formats
+3. Built pivot tables for each dimension (brand, location, rep, month)
+4. Designed a dashboard layout with charts and KPI summary cells
+5. Added slicers linked to all pivot tables for synchronized filtering
 
 ---
 
-## 📷 Screenshots
-- `dashboard_overview.png` — dashboard layout preview
-- `pivot_summary.png` — pivot tables and slicers in action
+## ✅ Key Insights
 
----
-
-## ✅ Key Insights (Example)
-- Most profitable brands and locations were identified
-- Payment method preference was observed
-- Sales reps driving revenue were ranked
-- Monthly trend highlighted peak sales periods
-
+- Most profitable brands and locations identified
+- Payment method preference observed across customer segments
+- Sales reps ranked by revenue contribution
+- Monthly trend highlighted peak and low sales periods
